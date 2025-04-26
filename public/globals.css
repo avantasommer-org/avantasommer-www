@@ -1,0 +1,10 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* force a black background + white text by default */
+html,
+body {
+    @apply bg-black text-white;
+}
