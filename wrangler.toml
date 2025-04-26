@@ -1,0 +1,24 @@
+# Top-level configuration
+name = "avantasommer-worker"
+main = "/pages/index.js"
+compatibility_date = "2025-04-04"
+
+[build]
+command = "npm run build"
+cwd = "build_cwd"
+watch_dir = "build_watch_dir"
+
+workers_dev = false
+route = { pattern = "avantasommer.com/*", zone_name = ""avantasommer.com}
+
+kv_namespaces = [
+  { binding = "avantasommer", id = "<KV_ID>" }
+]
+[env.staging]
+name = "staging"
+route = { pattern = "staging.avantasommer.com/*", zone_name = "bysommer.net" }
+
+kv_namespaces = [
+  { binding = "avantasommer", id = "5a377b8159304519939aa055372e0a4a" }
+]
+

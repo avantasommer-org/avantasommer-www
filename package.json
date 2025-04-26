@@ -1,0 +1,29 @@
+{
+  "name": "avantasommer",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "lint": "eslint . --fix",
+    "deploy": "./deploy.sh"
+  },
+  "dependencies": {
+    "autoprefixer": "latest",
+    "framer-motion": "^12.8.2",
+    "next": "latest",
+    "postcss": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "latest"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-react": "latest",
+    "prettier": "latest"
+  }
+}
