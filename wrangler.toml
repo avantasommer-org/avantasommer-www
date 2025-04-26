@@ -1,5 +1,5 @@
 # Top-level configuration
-name = "avantasommer-worker"
+name = "avantasommer-www"
 main = "/pages/index.js"
 compatibility_date = "2025-04-04"
 
