@@ -9,10 +9,10 @@ cwd = "build_cwd"
 watch_dir = "build_watch_dir"
 
 workers_dev = false
-route = { pattern = "avantasommer.com/*", zone_name = ""avantasommer.com}
+route = { pattern = "avantasommer.com/*", zone_name = "avantasommer.com"}
 
 kv_namespaces = [
-  { binding = "avantasommer", id = "<KV_ID>" }
+  { binding = "avantasommer", id = "5a377b8159304519939aa055372e0a4a" }
 ]
 [env.staging]
 name = "staging"
